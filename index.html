@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog MSTech</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">LOREM</div>
+            <nav class="menu">
+                <a href="#">CONSECETETUR</a>
+                <a href="#">SIT AMET</a>
+                <a href="#">EIUSMOD TEMPOR</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section style="height: 2000px;">
+            <!-- временный контент для проверки прокрутки -->
+        </section>
+    </main>
+
+    <script>
+        // Добавление затемнения при скролле
+        window.addEventListener("scroll", () => {
+            const header = document.querySelector(".site-header");
+            header.classList.toggle("scrolled", window.scrollY > 10);
+        });
+    </script>
+</body>
+
+</html>
