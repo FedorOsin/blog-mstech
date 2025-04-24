@@ -269,3 +269,82 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-top {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer-top a {
+  color: #999;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.footer-column {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-left .logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.footer-left .social-icons a {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+  transition: opacity 0.3s;
+}
+
+.footer-left .social-icons a:hover {
+  opacity: 0.6;
+}
+
+.footer-center {
+  align-items: center;
+  text-align: center;
+}
+
+.footer-center a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer-center a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.footer-right .order-btn {
+  padding: 0.6rem 1.4rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
